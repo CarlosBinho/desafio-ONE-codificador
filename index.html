@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de Mensagens</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS a ser criado -->
+</head>
+<body>
+    <section>
+        <!-- Primeira parte com ícone superior -->
+        <div class="header">
+            <img src="Vector.svg" alt="Ícone" class="icon">
+        </div>
+
+        <!-- Segunda parte com input e aviso -->
+        <div class="content">
+            <label for="mensagem">Digite seu texto</label>
+            <textarea id="mensagem" placeholder="Digite seu texto"></textarea>
+            <div class="aviso">
+                <img src="Group.svg" alt="Aviso" class="warning-icon">
+                <small>Apenas letras minúsculas e sem acento.</small>
+            </div>
+            <div class="buttons">
+                <button id="criptografar">Criptografar</button>
+                <button id="descriptografar">Descriptografar</button>
+                <button id="copiar">Copiar</button>
+            </div>
+        </div>
+
+        <!-- Terceira parte com a imagem -->
+        <div class="image-container" id="resultado">
+            <img src="High quality products 1 1.svg" alt="Nenhuma mensagem encontrada">
+            <strong>Nenhuma mensagem <br> encontrada</strong>
+            <p>Digite um texto que você deseja <br> criptografar ou descriptografar.</p>
+        </div>
+    </section>
+    
+    <script src="script.js"></script> <!-- JavaScript -->
+</body>
+</html>
